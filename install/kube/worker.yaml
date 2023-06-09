@@ -1,0 +1,9 @@
+worker:
+  image: daskdev/dask:latest
+  resources:
+    limits:
+      cpu: "8"
+      memory: "16Gi"
+    requests:
+      cpu: "8"
+      memory: "16Gi"
